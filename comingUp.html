@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%%EVENT_NAME%%</title>
+
+    <!-- CACHE-BUSTING TAGS -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <!-- END TAGS -->
+
+    <style>
+        /* --- Page Background --- */
+        body {
+            /* This is the very dark background from your screenshot's page */
+            background-color: #2b2b2b;
+            /* Clean, sans-serif font matching the Linktree feel */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* Adds some spacing around the card */
+        }
+
+        /* --- Main Table Container --- */
+        .post-table {
+            /* This is the gray "button" color from the screenshot */
+            background-color: #343434;
+            color: #ffffff;
+            /* Default text color to white */
+            max-width: 625px;
+            /* Your specified width */
+            width: 95%;
+            /* Makes it responsive on smaller screens */
+            margin: 20px auto;
+            /* Centers the table on the page */
+
+            /* This combination creates the rounded-corner "button" look */
+            border-radius: 25px;
+            overflow: hidden;
+            /* Ensures content respects the rounded corners */
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        /* --- Remove default margins from paragraphs --- */
+        .post-table p,
+        .post-table h1 {
+            margin: 0;
+        }
+
+        /* --- Header Row --- */
+        .header-row td {
+            background-color: #1f1f1f;
+            /* Darker header for contrast */
+            text-align: center;
+            padding: 24px;
+        }
+
+        .header-row h1 {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        /* --- Image Row --- */
+        .image-row td {
+            text-align: center;
+            padding: 24px 24px 0 24px;
+            /* Padding, but none at the bottom */
+        }
+
+        /* Style for the image that {firstPhotoURL HTML} will insert */
+        .image-row img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            /* Slightly rounded corners for the image */
+        }
+
+        /* --- Link Row --- */
+        .link-row td {
+            text-align: center;
+            padding: 16px 24px 24px 24px;
+            /* Separator line */
+            border-bottom: 1px solid #4a4a4a;
+        }
+
+        /* Style for the link that {extPostURL HTML} will insert */
+        .link-row a {
+            color: #f0f0f0;
+            text-decoration: underline;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        /* --- Data Rows (Q, Date, Summary) --- */
+        .data-row td {
+            padding: 16px 24px;
+            /* Separator line for rows */
+            border-bottom: 1px solid #4a4a4a;
+        }
+
+        /* Removes the bottom border from the very last row */
+        tr.data-row:last-child td {
+            border-bottom: none;
+        }
+
+        /* --- Data Labels (Q:, Date:) --- */
+        .data-label {
+            width: 173px;
+            /* From your original table */
+        }
+
+        .data-label p strong {
+            font-weight: 700;
+            color: #c0c0c0;
+            /* Lighter gray for the label */
+        }
+
+        /* --- Data Values ({LeaderQ}, etc.) --- */
+        .data-value {
+            width: 450px;
+            /* From your original table */
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table class="post-table" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr class="header-row">
+                <td colspan="2">
+                    <h1>The Spigot/SOTS  - Coming Up</h1>
+                </td>
+            </tr>
+            <tr class="image-row">
+                <td colspan="2">
+                    <!-- This placeholder will be filled with an <img> tag or "<p>No image</p>" -->
+                    <p></p>
+                </td>
+            </tr>
+            <tr class="link-row">
+                <td colspan="2">
+                    <!-- This placeholder will be filled with an <a> tag -->
+                    <p></p>
+                </td>
+            </tr>
+            
+<tr class="data-row">
+                <td class="data-label">
+                    <table style="width: 100%; border-collapse: collapse; color: #ffffff; font-size: 14px;"><thead><tr style="background-color: #1f1f1f; border-bottom: 1px solid #4a4a4a;"><th style="padding: 12px; text-align: left; font-weight: 700;">Event Type</th><th style="padding: 12px; text-align: left; font-weight: 700;">Title</th><th style="padding: 12px; text-align: left; font-weight: 700;">Start</th><th style="padding: 12px; text-align: left; font-weight: 700;">End</th><th style="padding: 12px; text-align: left; font-weight: 700;">Note</th></tr></thead><tbody><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">Picante - GQ</td><td style="padding: 12px; text-align: left;">11/10/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/10/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">GQ</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">Slots - Movember</td><td style="padding: 12px; text-align: left;">11/11/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/11/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">Movember</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">The Hammer - Fall Gauntlet</td><td style="padding: 12px; text-align: left;">11/12/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/12/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">Fall Gauntlet</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">Birdie - 2.0 Milestone Birthday</td><td style="padding: 12px; text-align: left;">11/13/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/13/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">2.0 Milestone Birthday</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">Roll~Off BQ - BQ  </td><td style="padding: 12px; text-align: left;">11/14/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/14/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">BQ  </td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">The Hammer - Fall Gauntlet</td><td style="padding: 12px; text-align: left;">11/15/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">11/15/2025 7:00 AM</td><td style="padding: 12px; text-align: left;">Fall Gauntlet</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">whale - Guest Q</td><td style="padding: 12px; text-align: left;">11/17/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/17/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">Guest Q</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">R2D2 - VQ</td><td style="padding: 12px; text-align: left;">11/18/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/18/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">VQ</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">DJ Taco&#039;s Q</td><td style="padding: 12px; text-align: left;">11/19/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/19/2025 6:00 AM</td><td style="padding: 12px; text-align: left;"></td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">DJ Taco&#039;s Q</td><td style="padding: 12px; text-align: left;">11/20/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/20/2025 6:00 AM</td><td style="padding: 12px; text-align: left;"></td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">CSAUP</td><td style="padding: 12px; text-align: left;">Know thy Nuts Run</td><td style="padding: 12px; text-align: left;">11/21/2025 12:00 AM</td><td style="padding: 12px; text-align: left;">11/21/2025 12:00 AM</td><td style="padding: 12px; text-align: left;"></td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">Legolas - Know Thy Nuts CSAUP</td><td style="padding: 12px; text-align: left;">11/21/2025 5:15 AM</td><td style="padding: 12px; text-align: left;">11/21/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">Know Thy Nuts CSAUP</td></tr><tr style="border-bottom: 1px solid #4a4a4a;"><td style="padding: 12px; text-align: left;">Q</td><td style="padding: 12px; text-align: left;">Retail - AQ</td><td style="padding: 12px; text-align: left;">11/22/2025 6:00 AM</td><td style="padding: 12px; text-align: left;">11/22/2025 7:00 AM</td><td style="padding: 12px; text-align: left;">AQ</td></tr></tbody></table>
+                </td>
+
+        </tbody>
+    </table>
+
+    <!-- NEW "LAST UPDATED" TIMESTAMP -->
+    <p style="text-align: center; color: #c0c0c0; font-size: 12px; margin-top: 10px;">
+        Last Updated: 11/10/2025 12:54 PM CST
+    </p>
+    <!-- END NEW TIMESTAMP -->
+
+</body>
+
+</html>
